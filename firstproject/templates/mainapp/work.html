@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset='UTF-8'>
+		<title>Work</title>
+		<style>
+			body{ 
+				background:url(/static/img/HyczqQ.jpg);
+			
+			}			
+			h1{
+				color: black;
+				font-family: 'Helvetica Neue', sans-serif; 
+				font-size: 40px; 
+				font-weight: bold; 
+				letter-spacing: -1px; 
+				line-height: 1; 
+				text-align: left;
+			}
+			h2{
+				color: black;
+				opacity:0.5;
+			}
+			p{
+				color: black;
+				font-family: 'Helvetica Neue', sans-serif; 
+				font-size: 25px; 
+				line-height: 24px; 
+				margin: 0 0 24px;  
+				text-justify: inter-word;
+				text-align: left;
+
+			}
+			.button {
+    			cursor:pointer;
+    			display:block;
+    			height:70px;
+    			width:320px;
+    			line-height:70px;
+    			text-align:center;
+    			background-image:url(/static/img/button-sprite.png);
+    			background-repeat:no-repeat;
+			}
+			.button.red { background-position:0 0 } /* зеленая кнопка */
+			.button.red:hover { background-position:0 -350px } /* активная зеленая кнопка */
+/* и т.д. */
+
+			}
+			.block {
+  			display: block;
+  			width: 600px;
+  			border: none;
+  			padding: 14px 28px;
+  			font-size: 16px;
+  			cursor: pointer;
+  			text-align: center;
+			opacity:0.4
+			}
+			.text-block {
+  			position: left;
+  			top: 50 px;
+  			left: 20px;
+  			padding-left: 20px;
+  			padding-right: 20px;
+			width: 500px;
+			height: 300px;
+			}
+			img{ float:right;
+			height:300px;
+			width:500px;
+			padding-left: 100px;
+  			padding-right: 300px;
+
+
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Моя работа</h1>
+		<h2>Текущее место работы: Сбербанк</h2>
+		<img src="/static/img/sber.png" />
+		<div class="text-block">
+		<p> В ходе своей трудовой деятельности я успел сменить три места работы.
+		Первым местом работы был ЦУМ, где я занимал позицию аналитка по интернет-проектам.
+		Вторым местом работы была компания Pepsi, где я по сути исполнял обязанности аналитика баз данных.
+		Текущим местом работы является Сбербанк, где я исполняю обязанности автотестировщика.
+		</p>
+		</div>
+		<a href="/" title="Label" class="button red">Вернуться на главную</a>
+		</body>
+</html>

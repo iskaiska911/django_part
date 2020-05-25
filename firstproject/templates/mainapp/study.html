@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset='UTF-8'>
+		<title>Study</title>
+	<style>
+			body{ 
+				background:url(/static/img/HyczqQ.jpg);
+			
+			}			
+			h1{
+				color: black;
+				font-family: 'Helvetica Neue', sans-serif; 
+				font-size: 40px; 
+				font-weight: bold; 
+				letter-spacing: -1px; 
+				line-height: 1; 
+				text-align: center;
+
+			}
+			h2{
+				color: black;
+				font-family: 'Helvetica Neue', sans-serif; 
+				font-size: 40px; 
+				font-weight: bold; 
+				letter-spacing: -1px; 
+				line-height: 1; 
+				text-align: center;
+			}
+			.column {
+  				float: left;
+  				width: 33.33%;
+				text-align: center
+						}
+
+				/* Clear floats after the columns */
+			.row:after {
+  			content: "";
+  			display: table;
+  			clear: both;
+			}
+			p{
+				font-weight: bold;
+			}
+			img{ float:center;
+			height:200px;
+			width:200px;
+			padding-left: 100px;
+  			padding-right: 300px;
+			}
+			.button {
+    			cursor:pointer;
+    			display:block;
+    			height:70px;
+    			width:320px;
+    			line-height:70px;
+    			text-align:center;
+    			background-image:url(/static/img/button-sprite.png);
+    			background-repeat:no-repeat;
+			}
+			.button.red { background-position:0 0 } /* зеленая кнопка */
+			.button.red:hover { background-position:0 -350px } /* активная зеленая кнопка */
+/* и т.д. */
+	</style>
+	</head>
+	<body>
+		<h1>Моя учеба</h1>
+		<h2><div class="row">
+			<div class="column">Школа</div>
+			<div class="column">Университет</div>
+			<div class="column">Доп.образование</div>
+			</div>
+
+			</h2>
+		<section>
+			<div class="row">
+  			<div class="column">
+					<p> Закончил школу ГОУ СОШ №1284
+					с углубленным изучением иностранного языка
+					им.Наташи Ковшовой в 2010, отличался хорошей успеваемостью и участием в различных спортивых мероприятиях	</p>
+			<img src="/static/img/1284.jpg" />
+			</div>
+  			<div class="column">
+					<p> Закончил бакалавриат и магистратур экономического
+					факультета МГУ им М.В Ломоносова, дипломнуб и магистерскую
+					работы защищал на кафедре математических методов анализа экономики
+					по темам:"Эмпирический анализ гипотезы эффективных рынков","Эконометрическое моделирование курсов акций нефтегазового сектора"
+						 </p>
+			<img src="/static/img/MSU.jpg" />
+						</div>
+  			<div class="column">
+					<p> Закончил курсы SkillFactory по направлению Машинное обучение,
+					прохожу внутреннее обучение на работе, связанное с автотестированием,
+					изучением selenium, API и Django </p>
+			<img src="/static/img/SF.png" />
+						</div>
+			</div>
+		</section>
+		<a href="/" title="Label" class="button red">Вернуться на главную</a>
+	</body>
+</html>

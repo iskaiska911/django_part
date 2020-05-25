@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset='UTF-8'>
+		<title>About me...</title>
+		<style>
+			body{ 
+				background:url(/static/img/HyczqQ.jpg);
+			
+			}			
+			h1{
+				color: black;
+				font-family: 'Helvetica Neue', sans-serif; 
+				font-size: 40px; 
+				font-weight: bold; 
+				letter-spacing: -1px; 
+				line-height: 1; 
+				text-align: left;
+			}
+			h2{
+				color: black;
+				opacity:0.5;
+			}
+			p{
+				color: black;
+				font-family: 'Helvetica Neue', sans-serif; 
+				font-size: 25px; 
+				line-height: 24px; 
+				margin: 0 0 24px;  
+				text-justify: inter-word;
+				text-align: left;
+
+			}
+			.button {
+    			cursor:pointer;
+    			display:block;
+    			height:70px;
+    			width:320px;
+    			line-height:70px;
+    			text-align:center;
+    			background-image:url(/static/img/button-sprite.png);
+    			background-repeat:no-repeat;
+			}
+			.button.red { background-position:0 0 } /* зеленая кнопка */
+			.button.red:hover { background-position:0 -350px } /* активная зеленая кнопка */
+/* и т.д. */
+
+			}
+			.block {
+  			display: block;
+  			width: 600px;
+  			border: none;
+  			padding: 14px 28px;
+  			font-size: 16px;
+  			cursor: pointer;
+  			text-align: center;
+			opacity:0.4
+			}
+			.text-block {
+  			position: left;
+  			top: 50 px;
+  			left: 20px;
+  			padding-left: 20px;
+  			padding-right: 20px;
+			width: 500px;
+			height: 300px;
+			}
+			img{ float:right;
+			height:300px;
+			width:200px;
+			padding-left: 100px;
+  			padding-right: 300px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Макаренков Александр Валерьевич</h1>
+		<h2>Дата рождения: 05.09.1992</h2>
+		<img src="/static/img/my_photo.jpg" />
+		<div class="text-block">
+		<p> Меня зовут Макаренков Александр , мне 27 лет.
+		Я люблю ходить в тренажерный зал,посещать кино и выставки и 
+		читать научпоп литературу.Помимо всего прочего я стараюсь 
+		развивать свои профессиональные навыки в сфере кодинга,
+		например в данный момент я изучаю верстку страниц, (html+css)
+		а в будущем буду изучать django, ниже вы сможете больше узнать
+		о моей учебе и работе <BR>
+		</p>
+		</div>
+		<a href="/study/" title="Label" class="button red">Учеба</a>
+		<a href="/work/" title="Label" class="button red">Работа</a>
+	</body>
+</html>
